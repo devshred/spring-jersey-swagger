@@ -4,6 +4,7 @@
     </head>
     <body>
         <h3>REST with Jersey and Spring</h3>
-        <a href="/rest/greeting">Greeting Resource</a>
+        <a href="/rest/greeting">Greeting Resource</a><br/>
+        <a href="/rest/api-docs">API Documentation</a>
     </body>
 </html>

@@ -1,7 +1,9 @@
 package org.devshred.rest.services;
 
-public interface GreetingService {
-	String greeting();
+import org.devshred.rest.model.Greeting;
 
-	String greeting(String name);
+public interface GreetingService {
+    Greeting greeting();
+
+    Greeting greeting(String name);
 }
